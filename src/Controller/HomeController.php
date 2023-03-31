@@ -14,6 +14,6 @@ class HomeController extends AbstractController
     {
         #$number = random_int(0, 100);
 
-        return $this->render('home.html.twig');
+        return $this->render('pages/home.html.twig');
     }
 }
